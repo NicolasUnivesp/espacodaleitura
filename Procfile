@@ -1,2 +1,2 @@
 
-web: gunicorn projeto.wsgi --log-file -
+web: gunicorn projeto.wsgi:django-polls --log-file -
